@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from openai import BaseModel
+from pydantic import BaseModel
 from components.embedding import generate_embeddings_queries
 from components.vector_db import search_embeddings
 from components.generation import generate_answers

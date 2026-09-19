@@ -1,7 +1,9 @@
 fastapi
 uvicorn
 python-multipart
-pypdf
+pydantic
 openai
+langchain-text-splitters
+pypdf
 weaviate-client
 python-dotenv
