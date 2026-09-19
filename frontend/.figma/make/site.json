@@ -1,0 +1,10 @@
+{
+  "description": "Engage with a sophisticated document RAG chatbot assistant through an interactive 3D dashboard, enhancing productivity and user experience with a modern design.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
