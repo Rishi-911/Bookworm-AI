@@ -1,0 +1,41 @@
+[33ma2f8d6b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial Commit
+ .vscode/settings.json                              |    3 [32m+[m
+ backend/.gitignore                                 |    1 [32m+[m
+ backend/components/chunking.py                     |   19 [32m+[m
+ backend/components/embedding.py                    |   37 [32m+[m
+ backend/components/generation.py                   |   43 [32m+[m
+ backend/components/loader.py                       |   17 [32m+[m
+ backend/components/vector_db.py                    |   67 [32m+[m
+ backend/components/weaviate_connection.py          |   11 [32m+[m
+ backend/main.py                                    |   19 [32m+[m
+ backend/routes/__pycache__/upload.cpython-313.pyc  |  Bin [31m0[m -> [32m1353[m bytes
+ .../routes/__pycache__/userQuery.cpython-313.pyc   |  Bin [31m0[m -> [32m1204[m bytes
+ backend/routes/upload.py                           |   31 [32m+[m
+ backend/routes/userQuery.py                        |   23 [32m+[m
+ backend/test.py                                    |   42 [32m+[m
+ backend/test_search.py                             |   19 [32m+[m
+ frontend/.figma/make/analyze-routes                |    4 [32m+[m
+ frontend/.figma/make/deploy                        |    4 [32m+[m
+ frontend/.figma/make/deploy-preview                |    5 [32m+[m
+ frontend/.figma/make/dev                           |    4 [32m+[m
+ frontend/.figma/make/dev.json                      |   22 [32m+[m
+ frontend/.figma/make/format                        |    4 [32m+[m
+ frontend/.figma/make/install                       |    4 [32m+[m
+ frontend/.figma/make/langserver                    |    3 [32m+[m
+ frontend/.figma/make/site.json                     |   10 [32m+[m
+ frontend/.gitattributes                            |  146 [32m++[m
+ frontend/.gitignore                                |   20 [32m+[m
+ frontend/.mise.toml                                |    3 [32m+[m
+ frontend/AGENTS.md                                 |   41 [32m+[m
+ frontend/CLAUDE.md                                 |    1 [32m+[m
+ frontend/index.html                                |   19 [32m+[m
+ frontend/package-lock.json                         | 2731 [32m++++++++++++++++++++[m
+ frontend/package.json                              |   33 [32m+[m
+ frontend/pnpm-lock.yaml                            | 1485 [32m+++++++++++[m
+ frontend/src/App.tsx                               |  626 [32m+++++[m
+ frontend/src/index.css                             |  211 [32m++[m
+ frontend/src/main.tsx                              |   10 [32m+[m
+ frontend/src/vite-env.d.ts                         |    1 [32m+[m
+ frontend/tsconfig.json                             |   22 [32m+[m
+ frontend/vite.config.ts                            |  356 [32m+++[m
+ 39 files changed, 6097 insertions(+)
